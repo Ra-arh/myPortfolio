@@ -668,12 +668,12 @@ button:hover {
 }
 
 #project1 {
-    background-image: url(./Images/projects/Project-1.png);
+    background-image: url(./Images//Projects/Project-1.png);
 }
 
 #project2 {
     margin-left: 120px;
-    background-image: url(./Images/projects/Project-2.png);
+    background-image: url(./Images/Projects/Project-2.png);
 }
 
 @media (max-width:320px) {
