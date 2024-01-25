@@ -493,6 +493,7 @@ button:hover {
 
     .skill-subHeading {
         width: 100%;
+        align-items: center;
     }
 
     .skill-subHeading p {
