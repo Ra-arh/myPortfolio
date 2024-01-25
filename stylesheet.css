@@ -388,6 +388,7 @@ button:hover {
 .skills-container {
     position: relative;
     display: flex;
+    justify-content: center;
     padding: 5rem;
     width: 100%;
     margin: 0 auto; 
@@ -397,12 +398,11 @@ button:hover {
 .skill-container-left {
     display: flex;
     flex-direction: column;
-    margin-left: 2.3rem;
-    width: 50%;
+    width: 45%;
 }
 
 .skill-heading{
-    font-weight: 600
+    font-weight: 600;
 }
 
 .skill-container-right {
@@ -438,17 +438,19 @@ button:hover {
 
 
 .skill-heading {
-    color: var(--bgOrange);
     font-size: 50px;
     font-style: bold;
-    line-height: 50px;
-    
+    line-height: 50px;  
 }
 
 .skill-subHeading {
     margin-top: 2rem;
     width: 85%;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill-subHeading p {
@@ -480,13 +482,10 @@ button:hover {
         width: 90%;
         padding-top: 2rem;
         margin-top: 2rem;
-        margin-left: -3rem;
-
     }
 
     .skill-heading {
         text-align: center;
-        margin-left: -2rem;
     }
 
     .caps {
