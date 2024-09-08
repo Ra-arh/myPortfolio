@@ -459,6 +459,7 @@ button:hover {
 }
 
 
+
 @media (max-width:1024px) {
     .footer-wrapper{
         display: flex;
@@ -626,7 +627,7 @@ button:hover {
 }
 
 .project-skills-container {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -727,6 +728,10 @@ button:hover {
 
 
 @media (max-width:1300px) {
+    .project-subHeading {
+        width: 90%;
+    }
+
     .page-header {
         padding-top: 30px;
         color: var(--bg0range);
