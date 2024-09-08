@@ -171,7 +171,7 @@ h1{
 }
 
 .multiText{
-    color: #7f00ff;
+    color: #410a78;
     text-transform: capitalize;
 }
 
@@ -278,9 +278,9 @@ button:hover {
     width: 250px;
     height: 100vh;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(15px);
-    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    background-color: rgba(7, 3, 56, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: -10px 0 10px rgba(8, 8, 8, 0.1);
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -444,7 +444,7 @@ button:hover {
 }
 
 .skill-subHeading {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 85%;
     text-align: justify;
     display: flex;
@@ -531,7 +531,7 @@ button:hover {
 .project-card {
     width: 90%;
     height: 500px;
-    background-image: url(./Images/Projects/Project-2.png);
+    background-image: url(./Images/Projects/officeShare.png);
     background-size: cover;
     position: relative;
     box-shadow: 0 15px 10px rgba(0,0,0,0.4);
@@ -582,13 +582,14 @@ button:hover {
     opacity: 1;
 }
 
+
 .project-number-right {
     right: 20px;
     top: -45px;
 }
 
 .project-number-left {
-    left: 20px;
+    right: 2%;
     top: -30px;
 }
 
@@ -618,7 +619,7 @@ button:hover {
 }
 
 .project-content-right {
-    right: -1%;
+    left: 10%;
 }
 
 .project-skills-container {
@@ -668,12 +669,43 @@ button:hover {
 }
 
 #project1 {
-    background-image: url(./Images//Projects/Project-1.png);
+    background-image: url(./Images//Projects/SimplySimple.png);
 }
 
 #project2 {
     margin-left: 120px;
-    background-image: url(./Images/Projects/Project-2.png);
+    background-image: url(./Images/Projects/officeShare.png);
+}
+
+#project3 {
+    background-image: url(./Images/Projects/orderEzy.png);
+}
+
+#project4 {
+    margin-left: 120px;
+    background-image: url(./Images/Projects/myGlobal.png);
+}
+
+#project5 {
+    background-image: url(./Images/Projects/goHobby.png);
+}
+
+#project6 {
+    margin-left: 120px;
+    background-image: url(./Images/Projects/mabobk.png);
+}
+
+#project7 {
+    background-image: url(./Images/Projects/buitanda.png);
+}
+
+#project8 {
+    margin-left: 120px;
+    background-image: url(./Images/Projects/five.png);
+}
+
+#project9 {
+    background-image: url(./Images/Projects/adwumapa.png);
 }
 
 @media (max-width:320px) {
@@ -893,3 +925,19 @@ footer {
         flex-direction: column;
     }
 }
+
+#contact-message {
+    background-color: #7f00ff; 
+    color: white; 
+    padding: 15px; 
+    margin-top: 20px; 
+    border-radius: 5px;
+    font-size: 18px; 
+  }  
+
+.button-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5% 0px -2% 0px;
+}  
