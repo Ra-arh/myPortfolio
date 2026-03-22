@@ -1,0 +1,130 @@
+.projects-section {
+  position: relative;
+  background-color: var(--bg-color-main);
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+  background: linear-gradient(145deg, rgba(30, 30, 30, 0.8), rgba(15, 15, 15, 0.9));
+  height: 100%;
+}
+
+.project-number {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 5rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.05);
+  transition: all var(--transition-normal);
+  z-index: 0;
+  line-height: 1;
+  font-family: var(--font-heading);
+  pointer-events: none;
+}
+
+.project-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.project-icon {
+  color: var(--accent-color);
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-link {
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.icon-link:hover {
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.icon-link.disabled {
+  color: rgba(255, 255, 255, 0.1);
+  cursor: not-allowed;
+}
+
+.icon-link.disabled:hover {
+  transform: none;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 15px;
+}
+
+.project-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  flex-grow: 1;
+  margin-bottom: 25px;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.stack-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+}
+
+.stack-icon:hover {
+  opacity: 1;
+}
+
+.load-more-container {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
