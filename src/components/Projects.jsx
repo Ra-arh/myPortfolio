@@ -127,7 +127,7 @@ const Projects = () => {
                     {project.skills.map((skillImg, idx) => (
                       <img 
                         key={idx} 
-                        src={`/Skills/${skillImg}`} 
+                        src={`${import.meta.env.BASE_URL}Skills/${skillImg}`} 
                         alt="tech" 
                         className="stack-icon" 
                         onError={(e) => { e.target.style.display = 'none'; }}

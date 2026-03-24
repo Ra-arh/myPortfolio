@@ -66,7 +66,7 @@ const Hero = () => {
           <div className="blob"></div>
           <div className="image-container glass">
             {/* The image should end up in public/Images/self.png */}
-            <img src="/self.png" alt="Rahul Jangid" className="profile-img" />
+            <img src={`${import.meta.env.BASE_URL}self.png`} alt="Rahul Jangid" className="profile-img" />
           </div>
         </motion.div>
         

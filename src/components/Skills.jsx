@@ -62,7 +62,7 @@ const Skills = () => {
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 whileHover={{ y: -10, scale: 1.05, borderColor: 'var(--accent-color)' }}
               >
-                <img src={`/Skills/${skill.img}`} alt={skill.name} className="skill-icon" onError={(e) => { e.target.style.display = 'none'; }} />
+                <img src={`${import.meta.env.BASE_URL}Skills/${skill.img}`} alt={skill.name} className="skill-icon" onError={(e) => { e.target.style.display = 'none'; }} />
                 <span className="skill-name">{skill.name}</span>
               </motion.div>
             ))}
